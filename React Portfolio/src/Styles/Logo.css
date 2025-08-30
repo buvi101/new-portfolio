@@ -1,0 +1,16 @@
+.logo{
+  color: #f5f5f5;
+  z-index: 1;
+  position: absolute;
+  top: 6%;
+  left: 6%;
+  transform: translate(-50%, -50%);
+}
+
+@media (max-width: 768px) {
+  .logo {
+    top: 5%;
+    left: 5%;
+    transform: translate(0,-50%);
+  }
+}

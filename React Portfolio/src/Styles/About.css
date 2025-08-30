@@ -1,0 +1,157 @@
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 80px;
+  gap: 50px;
+  min-height: 100vh;
+  flex-wrap: wrap;
+}
+
+.right-sec {
+  flex: 1;
+  min-width: 300px;
+}
+
+.about-sec {
+  max-width: 600px;
+}
+
+.about-para {
+  font-size: 1.5rem;
+  line-height: 1.8;
+  color: #f5f5f5;
+}
+
+.left-sec {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 300px;
+}
+
+.img-sec img {
+  width: 100%;
+  max-width: 460px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.img-sec {
+  background-color: #00909e;
+  width: 480px;
+  height: 480px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  animation: float 3s ease-in-out infinite;
+}
+
+.btn-group {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.action-btn {
+  background-color: #f5f5f5;
+  color: black;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.3);
+}
+
+.action-btn:hover {
+  background-color: #00909e;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 123, 255, 0.3);
+}
+
+
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  .left-sec,
+  .right-sec {
+    min-width: 100%;
+  }
+
+  .about-sec {
+    max-width: 100%;
+  }
+
+  .about-para {
+    font-size: 1.1rem;
+  }
+
+  .img-sec {
+    width: 300px;
+    height: 300px;
+  }
+
+  .btn-group {
+    justify-content: center;
+  }
+
+  .action-btn {
+    padding: 10px 20px;
+    font-size: 0.95rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-container {
+    padding: 30px 15px;
+  }
+
+  .about-para {
+    font-size: 1rem;
+    line-height: 1.5;
+    text-align: justify;
+  }
+
+  .img-sec {
+  background-color: #00909e;
+  width: 260px;
+  margin-top: 45px;
+  height: 260px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  animation: float 3s ease-in-out infinite;
+}
+
+.img-sec img {
+  max-width: 245px;
+}
+
+.about-container {
+  gap: 15px;
+}
+
+}
