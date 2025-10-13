@@ -31,7 +31,7 @@ function About() {
         <p className='about-para'>An Electronics and Communication Engineer with a deep passion for design and web development. With a strong foundation in HTML, CSS, JavaScript, and React.JS, Enjoy building clean, responsive, and interactive user experiences. Always eager to learn, experiment, and grow as a developer.</p>
       </div>
       <div className="btn-group">
-        <a href="Bhuwan Prasad J (Final-Resume).pdf" download target="_blank"><button className="action-btn">Download Resume</button></a>
+        <a href="Bhuwan Prasad J (QR-updated resume).pdf" download target="_blank"><button className="action-btn">Download Resume</button></a>
         <a href="https://github.com/buvi101" target="_blank" ><button className="action-btn">Visit Github</button></a>
         <button className='action-btn' onClick={handlemore}>More</button>
       </div>
