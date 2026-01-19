@@ -10,9 +10,9 @@ function FigmaDesign() {
   // images array
   const images = [
     "EV-9 UI Design.png",
+    "dashboard.png",
     "EV-9 UI Design.png",
-    "EV-9 UI Design.png",
-    "EV-9 UI Design.png"
+    "dashboard.png"
   ]
 
   // current index state
